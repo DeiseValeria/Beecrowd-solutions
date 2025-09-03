@@ -1,0 +1,136 @@
+
+# Documentação do Projeto: Treinamento de Algoritmos com Delphi
+
+## 1. Visão Geral e Objetivos
+
+O propósito deste projeto é servir como um material de treinamento prático para o aprendizado da linguagem de programação Delphi, com foco na implementação de algoritmos fundamentais. Ele se destina a desenvolvedores iniciantes ou estudantes que desejam construir uma base sólida em lógica de programação utilizando o Delphi.
+
+**Objetivos de Aprendizagem:**
+
+Ao final deste treinamento, o participante será capaz de:
+* Compreender a sintaxe básica e a estrutura de um projeto em Delphi.
+* Implementar algoritmos sequenciais, de repetição e de decisão.
+* Manipular estruturas de dados como vetores e matrizes.
+* Estruturar o código de forma modular utilizando sub-rotinas (procedures e functions).
+* Desenvolver algoritmos para manipulação de textos e números.
+* Entender e aplicar o conceito de recursão em problemas específicos.
+
+## 2. Estrutura e Conteúdo do Treinamento (Especificações Funcionais)
+
+Nesta seção, adaptamos o conceito de "Especificações Funcionais" para descrever o conteúdo e a estrutura do treinamento. Descreve-se aqui o que o "sistema de ensino" oferece ao aprendiz. Os "Requisitos Funcionais"  são declarados através dos exercícios a serem resolvidos.
+
+O treinamento está organizado em módulos sequenciais, cada um contendo um conjunto de exercícios práticos com seus respectivos códigos-fonte como gabarito.
+
+### 2.1. Módulos de Aprendizagem
+
+O projeto é dividido nos seguintes módulos:
+1.  **Sequenciais:** Exercícios que abordam a execução de comandos em sequência.
+2.  **Condicionais:** Exercícios que abordam a estruturas de controle que permitem que seu programa tome decisões e altere seu fluxo de execução com base em certas condições que você define. 
+3.  **Repetição:** Foco em laços de repetição (`for`, `while`, `repeat..until`).
+4.  **Vetores:** Manipulação de arrays unidimensionais.
+5.  **Matrizes:** Manipulação de arrays bidimensionais.
+6.  **Sub-rotinas Númericas:** Criação e uso de `procedures` e `functions`.
+7.  **Textos e Números:** Algoritmos específicos para manipulação de strings e operações numéricas.
+8.  **Recursão:** Introdução a funções recursivas.
+
+### 2.2. Requisitos Funcionais (Exercícios Propostos)
+
+A seguir, um exemplo de como os exercícios (requisitos) para cada módulo serão documentados.
+
+---
+**Módulo 1: Sequencial**
+
+* **RF-SEQ-001:** O programa deve solicitar ao usuário que digite dois números, calcular a média aritmética entre eles e exibir o resultado na tela.
+* **RF-SEQ-002:** O programa deve ler o valor do salário de um funcionário e calcular um aumento de 15%, exibindo o novo salário.
+* **RF-SEQ-003:** O programa deve converter uma temperatura de graus Celsius para Fahrenheit.
+
+---
+**Módulo 2: Condicionais**
+
+* **RF-REP-001:** O programa deve exibir a tabuada de um número fornecido pelo usuário, do 1 ao 10.
+* **RF-REP-002:** O programa deve solicitar números ao usuário até que ele digite o número 0. Ao final, deve exibir a soma de todos os números digitados.
+
+**Módulo 2: Repetição**
+
+* **RF-REP-001:** O programa deve exibir a tabuada de um número fornecido pelo usuário, do 1 ao 10.
+* **RF-REP-002:** O programa deve solicitar números ao usuário até que ele digite o número 0. Ao final, deve exibir a soma de todos os números digitados.
+
+
+
+### 2.3. Regras de Negócio (Restrições dos Algoritmos)
+
+No contexto de um treinamento de algoritmos, as "Regras de Negócio" não são regras comerciais, mas sim as premissas, restrições e condições lógicas que governam a solução de cada problema.
+
+**Exemplos de Regras de Negócio aplicadas aos exercícios:**
+
+| Cenário do Exercício            | Regra/Restrição do Algoritmo                                               |
+| :------------------------------ | :------------------------------------------------------------------------- |
+| Cálculo de Fatorial (Recursão)  | "O cálculo de fatorial só é definido para números inteiros não negativos." |
+| Divisão de dois números (Sequencial) | "O divisor não pode ser zero. O sistema deve validar essa condição."       |
+| Busca em Vetor (Vetores)        | "Se o elemento procurado não for encontrado, o sistema deve retornar um indicador (ex: -1)." |
+
+## 3. Arquitetura do Projeto
+
+A estrutura de pastas do projeto foi organizada para facilitar a navegação e o entendimento, separando cada módulo de exercícios.
+
+**Diagrama da Estrutura de Pastas:**
+```
+/Projeto_Treinamento_Delphi
+/Projeto_Exercicios
+│
+├── 01-Sequenciais/
+│   ├── Exercicio_01_Media.dpr
+│   └── Exercicio_02_Aumento.dpr
+│
+├── 02-Condicionais/
+│   ├── Exercicio_01_Tabuada.dpr
+│   └── Exercicio_02_Soma.dpr
+│
+├── 03-Repeticao/
+│   ├── Exercicio_01_Tabuada.dpr
+│   └── Exercicio_02_Soma.dpr
+│
+├── 04-Vetores/
+│   └── ...
+│
+├── 05-Matrizes/
+│   └── ...
+├── 06-Subrotinas Numericas/
+│   └── ...
+├── 07-Subrotinas/
+│   └── ...
+├── 08-Recursividade
+│   └── ...
+│
+└── README.md
+```
+
+## 4. Ambiente de Desenvolvimento e Tecnologias
+
+### 4.1. Tecnologias Utilizadas
+* **Linguagem:** Object Pascal (utilizada no Delphi e Lazzarus)
+* **IDE:** Delphi Community Edition é a 12.1 Athens. 
+* **Sistema Operacional:** Windows 10 e Ubuntu 24.04.3 LTS)
+
+### 4.2. Como Configurar o Ambiente
+Para compilar e executar os exercícios deste projeto, siga os passos abaixo:
+1.  **Instale o Delphi:** Baixe e instale a versão mais recente do [Delphi Community Edition](https://www.embarcadero.com/products/delphi/starter).
+2.  **Baixe o Projeto:** Clone ou faça o download deste repositório para sua máquina local.
+3.  **Abra um Exercício:** Navegue até a pasta de um módulo (ex: `/01-Sequencial/`) e abra o arquivo de projeto (`.dpr`) desejado no Delphi.
+4.  **Compile e Execute:** Pressione a tecla `F9` ou vá em `Run > Run` para compilar e executar o exercício.
+
+## 5. Guia de Uso e Aprendizagem
+
+Recomenda-se que o aprendiz siga os módulos na ordem numérica apresentada, pois eles foram estruturados em uma curva de aprendizado crescente.
+
+**Fluxo de Estudo Sugerido para cada Exercício:**
+1.  **Leia o Requisito:** Entenda o problema a ser resolvido lendo a especificação do exercício (ex: RF-SEQ-001) nesta documentação.
+2.  **Tente Implementar:** Antes de olhar o código-fonte, tente criar um novo projeto no Delphi e desenvolver sua própria solução.
+3.  **Consulte o Gabarito:** Após tentar, abra o arquivo de projeto correspondente ao exercício para comparar sua solução com a proposta.
+4.  **Teste e Modifique:** Execute o código de gabarito. Tente modificá-lo para entender o impacto das alterações e testar cenários diferentes.
+
+
+
+
+
+
