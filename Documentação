@@ -1,136 +1,66 @@
-
-# Documentação do Projeto: Treinamento de Algoritmos com Delphi
+# **Documentação do Projeto: Treinamento de Desafios Beecrowd**
 
 ## 1. Visão Geral e Objetivos
 
-O propósito deste projeto é servir como um material de treinamento prático para o aprendizado da linguagem de programação Delphi, com foco na implementação de algoritmos fundamentais. Ele se destina a desenvolvedores iniciantes ou estudantes que desejam construir uma base sólida em lógica de programação utilizando o Delphi.
+O propósito deste projeto é servir como um repositório centralizado e guia de estudos para a resolução de desafios da plataforma **Beecrowd** (antigo URI Online Judge). O foco é construir um portfólio de soluções bem documentadas e, ao mesmo tempo, treinar habilidades em diferentes linguagens de programação, começando com **SQL** e expandindo futuramente para **Java** e **Python**.
+
+Este material se destina a estudantes e desenvolvedores que buscam aprimorar sua lógica de programação, se preparar para competições, processos seletivos e aprofundar seus conhecimentos em linguagens específicas através de desafios práticos.
 
 **Objetivos de Aprendizagem:**
 
 Ao final deste treinamento, o participante será capaz de:
-* Compreender a sintaxe básica e a estrutura de um projeto em Delphi.
-* Implementar algoritmos sequenciais, de repetição e de decisão.
-* Manipular estruturas de dados como vetores e matrizes.
-* Estruturar o código de forma modular utilizando sub-rotinas (procedures e functions).
-* Desenvolver algoritmos para manipulação de textos e números.
-* Entender e aplicar o conceito de recursão em problemas específicos.
+* Compreender a estrutura de entrada e saída de dados exigida pelo Beecrowd.
+* Dominar a sintaxe e os comandos fundamentais de SQL para consultas e manipulação de dados.
+* Implementar soluções em Java e Python, aplicando as melhores práticas de cada linguagem.
+* Desenvolver o raciocínio lógico e a capacidade de interpretar problemas complexos.
+* Estruturar código de forma limpa e eficiente para passar nos testes automatizados da plataforma.
 
 ## 2. Estrutura e Conteúdo do Treinamento (Especificações Funcionais)
 
-Nesta seção, adaptamos o conceito de "Especificações Funcionais" para descrever o conteúdo e a estrutura do treinamento. Descreve-se aqui o que o "sistema de ensino" oferece ao aprendiz. Os "Requisitos Funcionais"  são declarados através dos exercícios a serem resolvidos.
+Nesta seção, adaptamos o conceito de "Especificações Funcionais" para descrever o conteúdo do treinamento. Os "Requisitos Funcionais" são os próprios desafios da plataforma Beecrowd, identificados por seus respectivos códigos.
 
-O treinamento está organizado em módulos sequenciais, cada um contendo um conjunto de exercícios práticos com seus respectivos códigos-fonte como gabarito.
+O treinamento está organizado por linguagens e, dentro de cada uma, por categorias ou níveis de dificuldade.
 
 ### 2.1. Módulos de Aprendizagem
 
 O projeto é dividido nos seguintes módulos:
-1.  **Sequenciais:** Exercícios que abordam a execução de comandos em sequência.
-2.  **Condicionais:** Exercícios que abordam a estruturas de controle que permitem que seu programa tome decisões e altere seu fluxo de execução com base em certas condições que você define. 
-3.  **Repetição:** Foco em laços de repetição (`for`, `while`, `repeat..until`).
-4.  **Vetores:** Manipulação de arrays unidimensionais.
-5.  **Matrizes:** Manipulação de arrays bidimensionais.
-6.  **Sub-rotinas Númericas:** Criação e uso de `procedures` e `functions`.
-7.  **Textos e Números:** Algoritmos específicos para manipulação de strings e operações numéricas.
-8.  **Recursão:** Introdução a funções recursivas.
+1.  **SQL:** Foco em desafios de banco de dados, abordando desde consultas simples até junções e agregações complexas.
+2.  **Python (Futuro):** Desafios de lógica, manipulação de strings, estruturas de dados, etc.
+3.  **Java (Futuro):** Desafios com foco em orientação a objetos, performance e estruturas de dados robustas.
 
-### 2.2. Requisitos Funcionais (Exercícios Propostos)
+### 2.2. Requisitos Funcionais (Desafios Propostos)
 
-A seguir, um exemplo de como os exercícios (requisitos) para cada módulo serão documentados.
+A seguir, um exemplo de como os desafios (requisitos) para cada módulo serão documentados, utilizando o ID do problema no Beecrowd.
 
 ---
-**Módulo 1: Sequencial**
+**Módulo 1: SQL**
 
-* **RF-SEQ-001:** O programa deve solicitar ao usuário que digite dois números, calcular a média aritmética entre eles e exibir o resultado na tela.
-* **RF-SEQ-002:** O programa deve ler o valor do salário de um funcionário e calcular um aumento de 15%, exibindo o novo salário.
-* **RF-SEQ-003:** O programa deve converter uma temperatura de graus Celsius para Fahrenheit.
+* **RF-SQL-2602:** **Representantes Executivos.** O programa deve retornar o nome de todos os clientes cujo estado seja 'RS'.
+* **RF-SQL-2605:** **Categorias.** O programa deve retornar o nome dos produtos e de suas respectivas categorias.
+* **RF-SQL-2606:** **Endereços dos Clientes.** O programa deve retornar o nome e o endereço dos clientes que moram na cidade de 'Porto Alegre'.
+* **RF-SQL-2609:** **Produtos por Categorias.** O programa deve exibir o nome da categoria e o número de produtos em cada uma.
 
 ---
-**Módulo 2: Condicionais**
+**Módulo 2: Python (Exemplos Futuros)**
 
-* **RF-REP-001:** O programa deve exibir a tabuada de um número fornecido pelo usuário, do 1 ao 10.
-* **RF-REP-002:** O programa deve solicitar números ao usuário até que ele digite o número 0. Ao final, deve exibir a soma de todos os números digitados.
+* **RF-PY-1001:** **Extremamente Básico.** O programa deve ler dois valores inteiros e apresentar a soma entre eles.
+* **RF-PY-1010:** **Cálculo Simples.** O programa deve ler o código, o número e o valor unitário de duas peças, calculando e mostrando o valor a ser pago.
 
-**Módulo 2: Repetição**
+---
 
-* **RF-REP-001:** O programa deve exibir a tabuada de um número fornecido pelo usuário, do 1 ao 10.
-* **RF-REP-002:** O programa deve solicitar números ao usuário até que ele digite o número 0. Ao final, deve exibir a soma de todos os números digitados.
+### 2.3. Regras de Negócio (Restrições dos Desafios)
 
+No contexto do Beecrowd, as "Regras de Negócio" são as premissas e, principalmente, as restrições de formato de saída que a plataforma impõe para que uma solução seja aceita.
 
-
-### 2.3. Regras de Negócio (Restrições dos Algoritmos)
-
-No contexto de um treinamento de algoritmos, as "Regras de Negócio" não são regras comerciais, mas sim as premissas, restrições e condições lógicas que governam a solução de cada problema.
-
-**Exemplos de Regras de Negócio aplicadas aos exercícios:**
-
-| Cenário do Exercício            | Regra/Restrição do Algoritmo                                               |
-| :------------------------------ | :------------------------------------------------------------------------- |
-| Cálculo de Fatorial (Recursão)  | "O cálculo de fatorial só é definido para números inteiros não negativos." |
-| Divisão de dois números (Sequencial) | "O divisor não pode ser zero. O sistema deve validar essa condição."       |
-| Busca em Vetor (Vetores)        | "Se o elemento procurado não for encontrado, o sistema deve retornar um indicador (ex: -1)." |
+| Cenário do Desafio | Regra/Restrição da Plataforma |
+| :--- | :--- |
+| Qualquer consulta SQL | "O nome das colunas no resultado (`SELECT ... AS nome_coluna`) deve ser **exatamente** igual ao especificado no problema." |
+| Saída de texto (Python/Java) | "A saída deve terminar com uma quebra de linha (`\n`), caso contrário, pode ocorrer 'Presentation Error'." |
+| Junção de Tabelas (SQL) | "Utilizar `LEFT JOIN` ao invés de `INNER JOIN` para garantir que todos os registros da tabela à esquerda sejam incluídos, se o problema assim exigir." |
+| Formatação de Números | "Valores de ponto flutuante devem ser formatados com o número exato de casas decimais solicitado pelo problema." |
 
 ## 3. Arquitetura do Projeto
 
-A estrutura de pastas do projeto foi organizada para facilitar a navegação e o entendimento, separando cada módulo de exercícios.
+A estrutura de pastas foi organizada para suportar múltiplas linguagens, facilitando a navegação e a adição de novas soluções.
 
 **Diagrama da Estrutura de Pastas:**
-```
-/Projeto_Treinamento_Delphi
-/Projeto_Exercicios
-│
-├── 01-Sequenciais/
-│   ├── Exercicio_01_Media.dpr
-│   └── Exercicio_02_Aumento.dpr
-│
-├── 02-Condicionais/
-│   ├── Exercicio_01_Tabuada.dpr
-│   └── Exercicio_02_Soma.dpr
-│
-├── 03-Repeticao/
-│   ├── Exercicio_01_Tabuada.dpr
-│   └── Exercicio_02_Soma.dpr
-│
-├── 04-Vetores/
-│   └── ...
-│
-├── 05-Matrizes/
-│   └── ...
-├── 06-Subrotinas Numericas/
-│   └── ...
-├── 07-Subrotinas/
-│   └── ...
-├── 08-Recursividade
-│   └── ...
-│
-└── README.md
-```
-
-## 4. Ambiente de Desenvolvimento e Tecnologias
-
-### 4.1. Tecnologias Utilizadas
-* **Linguagem:** Object Pascal (utilizada no Delphi e Lazzarus)
-* **IDE:** Delphi Community Edition é a 12.1 Athens. 
-* **Sistema Operacional:** Windows 10 e Ubuntu 24.04.3 LTS)
-
-### 4.2. Como Configurar o Ambiente
-Para compilar e executar os exercícios deste projeto, siga os passos abaixo:
-1.  **Instale o Delphi:** Baixe e instale a versão mais recente do [Delphi Community Edition](https://www.embarcadero.com/products/delphi/starter).
-2.  **Baixe o Projeto:** Clone ou faça o download deste repositório para sua máquina local.
-3.  **Abra um Exercício:** Navegue até a pasta de um módulo (ex: `/01-Sequencial/`) e abra o arquivo de projeto (`.dpr`) desejado no Delphi.
-4.  **Compile e Execute:** Pressione a tecla `F9` ou vá em `Run > Run` para compilar e executar o exercício.
-
-## 5. Guia de Uso e Aprendizagem
-
-Recomenda-se que o aprendiz siga os módulos na ordem numérica apresentada, pois eles foram estruturados em uma curva de aprendizado crescente.
-
-**Fluxo de Estudo Sugerido para cada Exercício:**
-1.  **Leia o Requisito:** Entenda o problema a ser resolvido lendo a especificação do exercício (ex: RF-SEQ-001) nesta documentação.
-2.  **Tente Implementar:** Antes de olhar o código-fonte, tente criar um novo projeto no Delphi e desenvolver sua própria solução.
-3.  **Consulte o Gabarito:** Após tentar, abra o arquivo de projeto correspondente ao exercício para comparar sua solução com a proposta.
-4.  **Teste e Modifique:** Execute o código de gabarito. Tente modificá-lo para entender o impacto das alterações e testar cenários diferentes.
-
-
-
-
-
-
