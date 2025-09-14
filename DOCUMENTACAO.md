@@ -1,1 +1,105 @@
+# **Documentação do Projeto: Treinamento de Desafios Beecrowd**
+
+## 1. Visão Geral e Objetivoss
+
+O propósito deste projeto é servir como um repositório centralizado e guia de estudos para a resolução de desafios da plataforma **Beecrowd** (antigo URI Online Judge). O foco é construir um portfólio de soluções bem documentadas e, ao mesmo tempo, treinar habilidades em diferentes linguagens de programação, começando com **SQL** e expandindo futuramente para **Java** e **Python**.
+
+Este material se destina a estudantes e desenvolvedores que buscam aprimorar sua lógica de programação, se preparar para competições, processos seletivos e aprofundar seus conhecimentos em linguagens específicas através de desafios práticos.
+
+**Objetivos de Aprendizagem:**
+
+Ao final deste treinamento, o participante será capaz de:
+* Compreender a estrutura de entrada e saída de dados exigida pelo Beecrowd.
+* Dominar a sintaxe e os comandos fundamentais de SQL para consultas e manipulação de dados.
+* Implementar soluções em Java e Python, aplicando as melhores práticas de cada linguagem.
+* Desenvolver o raciocínio lógico e a capacidade de interpretar problemas complexos.
+* Estruturar código de forma limpa e eficiente para passar nos testes automatizados da plataforma.
+
+## 2. Estrutura e Conteúdo do Treinamento (Especificações Funcionais)
+
+Nesta seção, adaptamos o conceito de "Especificações Funcionais" para descrever o conteúdo do treinamento. Os "Requisitos Funcionais" são os próprios desafios da plataforma Beecrowd, identificados por seus respectivos códigos.
+
+O treinamento está organizado por linguagens e, dentro de cada uma, por categorias ou níveis de dificuldade.
+
+### 2.1. Módulos de Aprendizagem
+
+O projeto é dividido nos seguintes módulos:
+1.  **SQL:** Foco em desafios de banco de dados, abordando desde consultas simples até junções e agregações complexas.
+2.  **Python (Futuro):** Desafios de lógica, manipulação de strings, estruturas de dados, etc.
+3.  **Java (Futuro):** Desafios com foco em orientação a objetos, performance e estruturas de dados robustas.
+
+### 2.2. Requisitos Funcionais (Desafios Propostos)
+
+A seguir, um exemplo de como os desafios (requisitos) para cada módulo serão documentados, utilizando o ID do problema no Beecrowd.
+
+---
+**Módulo 1: SQL**
+
+* **RF-SQL-2602:** **Representantes Executivos.** O programa deve retornar o nome de todos os clientes cujo estado seja 'RS'.
+* **RF-SQL-2605:** **Categorias.** O programa deve retornar o nome dos produtos e de suas respectivas categorias.
+* **RF-SQL-2606:** **Endereços dos Clientes.** O programa deve retornar o nome e o endereço dos clientes que moram na cidade de 'Porto Alegre'.
+* **RF-SQL-2609:** **Produtos por Categorias.** O programa deve exibir o nome da categoria e o número de produtos em cada uma.
+
+---
+**Módulo 2: Python (Exemplos Futuros)**
+
+* **RF-PY-1001:** **Extremamente Básico.** O programa deve ler dois valores inteiros e apresentar a soma entre eles.
+* **RF-PY-1010:** **Cálculo Simples.** O programa deve ler o código, o número e o valor unitário de duas peças, calculando e mostrando o valor a ser pago.
+
+---
+
+### 2.3. Regras de Negócio (Restrições dos Desafios)
+
+No contexto do Beecrowd, as "Regras de Negócio" são as premissas e, principalmente, as restrições de formato de saída que a plataforma impõe para que uma solução seja aceita.
+
+| Cenário do Desafio | Regra/Restrição da Plataforma |
+| :--- | :--- |
+| Qualquer consulta SQL | "O nome das colunas no resultado (`SELECT ... AS nome_coluna`) deve ser **exatamente** igual ao especificado no problema." |
+| Saída de texto (Python/Java) | "A saída deve terminar com uma quebra de linha (`\n`), caso contrário, pode ocorrer 'Presentation Error'." |
+| Junção de Tabelas (SQL) | "Utilizar `LEFT JOIN` ao invés de `INNER JOIN` para garantir que todos os registros da tabela à esquerda sejam incluídos, se o problema assim exigir." |
+| Formatação de Números | "Valores de ponto flutuante devem ser formatados com o número exato de casas decimais solicitado pelo problema." |
+
+## 3. Arquitetura do Projeto
+
+A estrutura de pastas foi organizada para suportar múltiplas linguagens, facilitando a navegação e a adição de novas soluções.
+
+**Diagrama da Estrutura de Pastas:**
+
+/Projeto_Treinamento_Beecrowd
+│
+├── 📁 SQL/
+│   ├── 📄 2602_Representantes_Executivos.sql
+│   └── ...
+│
+├── 📁 Java/
+│   └── (Futuramente serão adicionados desafios em Java)
+│
+├── 📁 Python/
+│   └── (Futuramente serão adicionados desafios em Python)
+│
+├── 📄 .gitignore
+└── 📄 README.md
+
+
+## 4. Tecnologias e Ferramentas
+
+* **Plataforma de Desafios:** [Beecrowd](https://www.beecrowd.com.br/)
+* **Linguagens:**
+    * Java (JDK 11+)
+    * Python (3.x)
+    * SQL (Dialeto PostgreSQL)
+* **Ferramentas:**
+    * DBeaver / pgAdmin para SQL.
+    * IDE de preferência para as demais linguagens (VS Code, IntelliJ, etc.).
+
+## 5. Guia de Uso e Aprendizagem
+
+Recomenda-se que o aprendiz escolha um desafio na plataforma e tente resolvê-lo antes de consultar a solução proposta no repositório.
+
+**Fluxo de Estudo Sugerido para cada Desafio:**
+1.  **Leia o Problema no Beecrowd:** Entenda completamente o que é pedido, quais são as entradas, as saídas esperadas e as restrições.
+2.  **Tente Implementar:** Crie seu próprio arquivo e desenvolva sua solução. Utilize seu ambiente local para testar.
+3.  **Submeta na Plataforma:** Submeta sua solução no Beecrowd e verifique o resultado (Accepted, Wrong Answer, etc.).
+4.  **Consulte a Solução Proposta:** Caso tenha dificuldades ou queira comparar abordagens, abra o arquivo correspondente no repositório para analisar a solução de gabarito.
+5.  **Refatore e Entenda:** Compare as duas soluções. Entenda por que a solução do gabarito funciona e tente aplicar os conceitos aprendidos em outros desafios.
 
