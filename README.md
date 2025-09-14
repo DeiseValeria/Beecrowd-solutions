@@ -4,7 +4,15 @@
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sql&logoColor=white)
 
-> Este repositório é dedicado à minha jornada de aprendizado e prática na resolução de problemas de banco de dados utilizando SQL. Aqui você encontrará soluções para diversos desafios da plataforma Beecrowd, implementadas com o objetivo de aprimorar minhas habilidades em consultas e manipulação de dados.
+# Repositório de Estudos e Soluções em SQL
+
+> Documento minha evolução na resolução de desafios de banco de dados da plataforma Beecrowd, com o objetivo de transformar a teoria em prática e construir um portfólio sólido.
+
+### O que você encontrará aqui?
+
+* Soluções para diversos desafios da plataforma **Beecrowd**.
+* Scripts que são um exercício prático de **lógica, otimização e manipulação de dados**.
+* Uma documentação do meu progresso no aprimoramento de habilidades em consultas SQL.
 
 ## 📝 Sobre o Projeto
 
