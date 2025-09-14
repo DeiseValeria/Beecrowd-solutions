@@ -10,6 +10,11 @@
 
 Este projeto serve como um diário de bordo dos meus estudos em SQL. Cada arquivo representa um desafio que resolvi na plataforma **Beecrowd**, com foco em criar queries limpas, eficientes e que atendam rigorosamente aos requisitos de cada problema. O objetivo principal é solidificar meu conhecimento em SQL e criar um portfólio de soluções.
 
+
+## 📂 Estrutura do Repositório
+
+A organização dos arquivos foi pensada para facilitar a busca por soluções específicas, utilizando o número do problema como identificador principal.
+
 ## 📂 Estrutura do Repositório
 
 A organização dos arquivos foi pensada para facilitar a busca por soluções específicas, utilizando o número do problema como identificador principal.
