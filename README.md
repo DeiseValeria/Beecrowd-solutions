@@ -17,7 +17,8 @@ Este projeto é o meu diário de bordo de estudos práticos, onde resolvo desafi
 * **Qualidade do Código:** Criação de soluções limpas, eficientes e que atendam rigorosamente aos requisitos dos problemas.
 * **Objetivo:** Solidificar o conhecimento teórico através da prática e demonstrar minhas habilidades de resolução de problemas em diferentes tecnologias.
 
----
+
+```
 
 ## 📂 Estrutura do Repositório
 
@@ -38,10 +39,8 @@ A organização dos arquivos foi pensada para facilitar a busca por soluções e
 │   └── (Futuramente serão adicionados desafios em Ruby)
 │
 ├── 📄 .gitignore         # Arquivo para ignorar arquivos gerados pela IDE e SGBD
-└── 📄 README.md           # Esta documentação que você está lendo :)
-
-
----
+└── 📄 README.md           # Esta documentação que você está lendo.
+```
 
 ## 🛠️ Tecnologias e Ferramentas
 
