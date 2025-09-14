@@ -40,7 +40,7 @@ A organização dos arquivos foi pensada para facilitar a busca por soluções e
 ├── 📄 .gitignore         # Arquivo para ignorar arquivos gerados pela IDE e SGBD
 └── 📄 README.md           # Esta documentação que você está lendo :)
 
-/
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
