@@ -64,3 +64,41 @@ No contexto do Beecrowd, as "Regras de Negócio" são as premissas e, principalm
 A estrutura de pastas foi organizada para suportar múltiplas linguagens, facilitando a navegação e a adição de novas soluções.
 
 **Diagrama da Estrutura de Pastas:**
+
+/Projeto_Treinamento_Beecrowd
+│
+├── 📁 SQL/
+│   ├── 📄 2602_Representantes_Executivos.sql
+│   └── ...
+│
+├── 📁 Java/
+│   └── (Futuramente serão adicionados desafios em Java)
+│
+├── 📁 Python/
+│   └── (Futuramente serão adicionados desafios em Python)
+│
+├── 📄 .gitignore
+└── 📄 README.md
+
+
+## 4. Tecnologias e Ferramentas
+
+* **Plataforma de Desafios:** [Beecrowd](https://www.beecrowd.com.br/)
+* **Linguagens:**
+    * Java (JDK 11+)
+    * Python (3.x)
+    * SQL (Dialeto PostgreSQL)
+* **Ferramentas:**
+    * DBeaver / pgAdmin para SQL.
+    * IDE de preferência para as demais linguagens (VS Code, IntelliJ, etc.).
+
+## 5. Guia de Uso e Aprendizagem
+
+Recomenda-se que o aprendiz escolha um desafio na plataforma e tente resolvê-lo antes de consultar a solução proposta no repositório.
+
+**Fluxo de Estudo Sugerido para cada Desafio:**
+1.  **Leia o Problema no Beecrowd:** Entenda completamente o que é pedido, quais são as entradas, as saídas esperadas e as restrições.
+2.  **Tente Implementar:** Crie seu próprio arquivo e desenvolva sua solução. Utilize seu ambiente local para testar.
+3.  **Submeta na Plataforma:** Submeta sua solução no Beecrowd e verifique o resultado (Accepted, Wrong Answer, etc.).
+4.  **Consulte a Solução Proposta:** Caso tenha dificuldades ou queira comparar abordagens, abra o arquivo correspondente no repositório para analisar a solução de gabarito.
+5.  **Refatore e Entenda:** Compare as duas soluções. Entenda por que a solução do gabarito funciona e tente aplicar os conceitos aprendidos em outros desafios.
